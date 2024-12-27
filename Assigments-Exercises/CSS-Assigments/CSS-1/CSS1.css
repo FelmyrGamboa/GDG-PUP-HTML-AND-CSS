@@ -1,13 +1,13 @@
-body{
+.fb-text-style {
     font-family: sans-serif;
     text-align: center;
 }
 
-h1{
+h1.fb-text-style {
     color: #1877F2;
 }
 
-p{
+p.fb-text-style {
     color: grey;
     font-style: italic;
     font-weight: bold;

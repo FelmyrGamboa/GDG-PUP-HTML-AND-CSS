@@ -150,6 +150,7 @@ a {
 
 .japanese_songs > .honeyworks {
     margin-left: 50px;
+    margin-bottom: 15px;
 }
 
 .japanese_songs > div p {
@@ -259,7 +260,7 @@ a {
     width: 55px;
     height: 55px;
     object-fit: cover;
-    padding-top: 5px;
+    padding-top: 8px;
 }
 
 .footer_socials > .facebook img {

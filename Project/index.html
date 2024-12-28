@@ -40,12 +40,12 @@
           <!-- Step 2.3: Inside the div, create a paragraph describing the website. Example: "Your journey to mastering web development starts here..." -->
         </section>
       </header>
-      <main>
+      <main class="main">
         <div class="main-posts">
           <!-- Step 3.1: Create a div to contain the main blog posts -->
           <article>
             <!-- Step 3.2: Create an article element to group individual blog posts -->
-            <div class="blog-posts">
+            <div>
               <!-- Step 3.3: Create a div for a single blog post -->
               <div class="post-image">
                 <img src="assets/images/post1.jpg", alt="HTML & CSS Code Snippet">
@@ -54,23 +54,43 @@
               </div>
               <div class="post-content">
                 <h2>Structuring the Web: Best Practices for HTML and CSS</h2>
-                <p class="metadata">Posted on November 15, 2023 by Google Dev Team</p>
-                <p class="summary">Creating an effective website is done by building a solid background for HTML and CSS. Building a firm foundation of these two languages helps you create a beautiful responsive website. Learn different technicalities needed, semantics and structures to make your website easier to make and fun to do!</p>
+                <p class="post-meta">Posted on November 15, 2023 by Google Dev Team</p>
+                <p class="post-summary">Creating an effective website is done by building a solid background for HTML and CSS. Building a firm foundation of these two languages helps you create a beautiful responsive website. Learn different technicalities needed, semantics and structures to make your website easier to make and fun to do!</p>
                 <!-- Step 3.5: Inside the blog post div, create a div for the "post-content" -->
                 <!-- Create an h2 for the blog post title -->
                 <!-- Add a paragraph for the post metadata (e.g., "Posted on November 15, 2023 by Google Dev Team") -->
                 <!-- Add a paragraph for the post summary (e.g., "Creating an effective website starts with solid HTML...") -->
               </div>
             </div>
-
             <!-- Step 3.6: Using the instructions above, create two more blog posts -->
-            <div class="blog-posts-2">
-              <img src="assets/images/post2.png", alt="JavaScript">
-              <h2></h2>
-              <!-- Include the following for this post: src="assets/images/post2.png", title="Building Dynamic UI with JavaScript", metadata="Posted on November 14, 2023 by Google Dev Team", summary="From interactive forms to dynamic content, JavaScript brings your website to life..." -->
-            </div>
+          </article>
+
+          <article>
             <div>
-              <!-- Include the following for this post: src="assets/images/post3.jpeg", title="Unlocking the Magic of CSS Flexbox", metadata="Posted on November 13, 2023 by Google Dev Team", summary="Learn how to create responsive and dynamic layouts with CSS Flexbox..." -->
+              <div class="post-image">
+                <img src="assets/images/post2.png", alt="JavaScript">
+              </div>
+              <!-- Include the following for this post: src="assets/images/post2.png", title="Building Dynamic UI with JavaScript", metadata="Posted on November 14, 2023 by Google Dev Team", summary="From interactive forms to dynamic content, JavaScript brings your website to life..." -->
+              <div class="post-content">
+                <h2>Building Dynamic UI with JavaScript</h2>
+                <p class="post-meta">Posted on November 14, 2023 by Google Dev Team</p>
+                <p class="post-summary">From interactive forms to dynamic content, JavaScript brings your website to life. Explore techniques to enhance user experiences with dynamic web elements that engage and inform.</p>
+              </div>
+            </div>
+          </article>
+
+          <article>
+            <div>
+              <div class="post-image">
+                <img src="assets/images/post3.png", alt="CSS Flexbox">
+              </div>
+              <div class="post-content">
+                <h2>Unlocking the Magic of CSS Flexbox</h2>
+                <p class="post-meta">Posted on November 13, 2023 by Google Dev Team</p>
+                <p class="post-summary">Learn how to create responsive and dynamic layouts with CSS Flexbox. Explore styling your website with proper place of elements using Flexbox.</p>
+                <!-- Include the following for this post: src="assets/images/post3.jpeg", title="Unlocking the Magic of CSS Flexbox", metadata="Posted on November 13, 2023 by Google Dev Team", summary="Learn how to create responsive and dynamic layouts with CSS Flexbox..." -->
+                </div>
+              </div>
             </div>
           </article>
         </div>

@@ -115,7 +115,7 @@ body {
   display: flex; 
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 20px; 
+  gap: none; 
   max-width: 2000px; 
   margin: 10px auto; 
   padding: 30px;
@@ -138,6 +138,7 @@ body {
   overflow: hidden; 
   box-shadow:  0 2px 5px rgba(214, 211, 211, 0.1);
   margin: 0 30px 30px 0px;
+  height: auto;
 }
 
 /* Step 17: Blog Post Image Styles */
@@ -191,6 +192,11 @@ body {
   padding: 30px 60px 30px 30px; 
   box-shadow: 0 2px 5px rgba(214, 211, 211, 0.1);
   margin-right: 100px;
+  height: 555px;
+  box-shadow:  0 2px 5px rgba(214, 211, 211, 0.1);
+  display: flex;
+  flex-direction: column;
+
 }
 
 /* Step 22: Sidebar Heading Styles */
@@ -209,8 +215,8 @@ body {
 
 /* Step 24: Popular Post Image Styles */
 .popular-post img {
-  width: 100px; 
-  height: 100px; 
+  width: 50px; 
+  height: 50px; 
   border-radius: 5px; 
   object-fit: cover; 
   margin-right: 10px;
@@ -232,12 +238,27 @@ body {
 
 .popular-post p {
   color: #FFFFFF;
-  font-size: 15px;
+  font-size: 12px;
 }
 
 /* Step 26: Popular Post Link Hover Styles */
 .popular-post a:hover {
   color: #94b7ef;
+}
+
+.social-side {
+  margin-top: auto;
+}
+
+.social-side h4 {
+  color: #FFFFFF;
+  margin: 10px 0 10px 0;
+}
+
+.social-side a {
+  color: #4185EF;
+  text-decoration: none;
+  font-size: 15px;
 }
 
 /* Footer Styling */

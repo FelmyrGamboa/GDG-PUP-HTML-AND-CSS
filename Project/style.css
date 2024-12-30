@@ -8,7 +8,7 @@
 
 /* Step 2: Set global styles for the body */
 body {
-  font-family: 'Arial', sans-serif; 
+  font-family: 'Calibri', sans-serif; 
   line-height: 1; 
   color: #1F1F1F; 
   background-color: #121212; 
@@ -138,7 +138,10 @@ body {
   overflow: hidden; 
   box-shadow:  0 2px 5px rgba(214, 211, 211, 0.1);
   margin: 0 30px 30px 0px;
-  height: auto;
+}
+
+.main-posts > .article_3 {
+  margin-bottom: auto;
 }
 
 /* Step 17: Blog Post Image Styles */
@@ -192,11 +195,10 @@ body {
   padding: 30px 60px 30px 30px; 
   box-shadow: 0 2px 5px rgba(214, 211, 211, 0.1);
   margin-right: 100px;
-  height: 555px;
+  height: auto;
   box-shadow:  0 2px 5px rgba(214, 211, 211, 0.1);
   display: flex;
   flex-direction: column;
-
 }
 
 /* Step 22: Sidebar Heading Styles */
@@ -210,7 +212,6 @@ body {
   display: flex; 
   align-items: center; 
   margin-bottom: 20px;
-  /* width: 110%; */
 }
 
 /* Step 24: Popular Post Image Styles */
@@ -259,6 +260,7 @@ body {
   color: #4185EF;
   text-decoration: none;
   font-size: 15px;
+  margin-right: 10px;
 }
 
 /* Footer Styling */

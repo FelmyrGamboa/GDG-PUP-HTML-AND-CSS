@@ -283,7 +283,7 @@ body {
   display: flex; 
   flex-wrap: row wrap; 
   justify-content: center; 
-  gap: 5%; 
+  gap: 10%; 
   max-width: auto; 
   margin: 20px;
 }
@@ -296,12 +296,17 @@ body {
 
 /* Step 30: Footer Paragraph Styles */
 .footer p {
-  /* font-size: ; */
+  font-size: auto;
+  line-height: 1.5;
 }
 
 .footer p:last-child {
-  /* margin-top: ; 
-    color: ; */
+  margin-top: 10px; 
+  color: #535E5E;
+}
+
+.footer hr {
+  background-color: black;
 }
 
 /* Responsive Design */

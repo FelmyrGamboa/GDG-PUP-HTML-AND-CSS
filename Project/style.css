@@ -263,31 +263,35 @@ body {
   margin-right: 10px;
 }
 
+.social-side a:hover {
+  color: #94b7ef;
+}
+
 /* Footer Styling */
 /* Step 27: Footer Container Styles */
 .footer {
-  /* background-color: ; 
-    color: ; 
-    padding: ; 
-    margin-top: ; 
-    text-align: ; 
-    border-top: ; */
+  background-color: #1F1F1F; 
+  color: #535E5E; 
+  padding: 20px; 
+  margin-top: 10px; 
+  text-align: center; 
+  border-top: ;
 }
 
 /* Step 28: Footer Content Styles */
 .footer-content {
-  /* display: ; 
-    flex-wrap: ; 
-    justify-content: ; 
-    gap: ; 
-    max-width: ; 
-    margin: ; */
+  display: flex; 
+  flex-wrap: row wrap; 
+  justify-content: center; 
+  gap: 5%; 
+  max-width: auto; 
+  margin: 20px;
 }
 
 /* Step 29: Footer Heading Styles */
-.footer-content h4 {
-  /* margin-bottom: ; 
-    color: ; */
+.footer-content h3 {
+  margin-bottom: 15px; 
+  color: #C9A907;
 }
 
 /* Step 30: Footer Paragraph Styles */

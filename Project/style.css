@@ -305,10 +305,6 @@ body {
   color: #535E5E;
 }
 
-.footer hr {
-  background-color: black;
-}
-
 /* Responsive Design */
 /* Step 31: Responsive Navbar Styles */
 @media (max-width: 768px) {

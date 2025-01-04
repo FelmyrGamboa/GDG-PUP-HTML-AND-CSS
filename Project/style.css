@@ -275,7 +275,7 @@ body {
   padding: 20px; 
   margin-top: 10px; 
   text-align: center; 
-  border-top: ;
+  /* border-top: ; */
 }
 
 /* Step 28: Footer Content Styles */
@@ -308,37 +308,59 @@ body {
 /* Responsive Design */
 /* Step 31: Responsive Navbar Styles */
 @media (max-width: 768px) {
+  body{
+    padding-top: 195px;
+  }
+
+  .navbar{
+    position: fixed;
+  }
+
   .navbar--container {
-    /* flex-direction: ; 
-      text-align: ; */
+    flex-direction: column; 
+    text-align: center;
+  }
+
+  .logo-container p {
+    padding-right: 70px;
   }
 
   .nav-links-container {
-    /* flex-direction: ; 
-      gap: ; */
+    flex-direction: column; 
+    gap: auto;
+    padding: 0px;
+  }
+
+  .header-banner-container {
+    border-radius: 10px;
   }
 
   .header-banner-container h1 {
-    /* font-size: ; */
+    font-size: 35px;
   }
 
   .header-banner-container p {
-    /* font-size: ; */
+    font-size: ;
   }
 
   .main {
-    /* flex-direction: ; */
+    flex-direction: column; 
   }
 
   .main-posts article {
-    /* flex-direction: ; 
-      align-items: ; 
-      text-align: ; */
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center;
+  }
+
+  .main-posts article div {
+    flex-direction: column;
   }
 
   .main-posts article img {
-    /* width: ; 
-      height: ; */
+    width: 600px; 
+    height: 300px;
+    object-fit: cover;
   }
 
   .main-posts p {
